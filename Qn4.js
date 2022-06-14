@@ -14,5 +14,4 @@ ans : Promise { 5 }
  like : console.log(Promise.resolve(promise2()))
 
  Proimise { the resolve value of the promise2 }
-
 */
