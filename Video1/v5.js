@@ -10,8 +10,8 @@ multiply(value)
 multiply(value)
 
 /*
-x = 10  - 7 
-x  = 10 - 8
+x = 20  - 7 
+x  = 20 - 8
 
 but now we are sending value as argument so now
 
