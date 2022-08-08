@@ -9,8 +9,6 @@ person.name = "HHHHHH"
 console.log(person)
 
 /*
-seal only allow any property changing value.
-Not add or delete.
-
+With Object.seal we can prevent new properties from being added, or existing properties to be removed.
 
 */
