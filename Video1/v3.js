@@ -7,17 +7,11 @@ a[c] = 456
 console.log(a[b])
 
 /*
-when a[b] ;
+Object keys are automatically converted into strings. We are trying to set an object as a key to object a, with the value of 123.
 
-we are trying b object to a object
-now {key : b} first will be stringify and then assing to a ;
+However, when we stringify an object, it becomes "[object Object]". So what we are saying here, is that a["[object Object]"] = 123. Then, we can try to do the same again. c is another object that we are implicitly stringifying. So then, a["[object Object]"] = 456.
 
-so now a[object object] = 123;
-after that we are doing same thing 
-
-a[object object] = 456;
-
-now a[b] & a[c] referring to the same memory location which has the vlaue of 456.
+Then, we log a[b], which is actually a["[object Object]"]. We just set that to 456, so it returns 456.
 
 
 */
