@@ -5,6 +5,7 @@ const person = {
 
 function addHobby(hobby, hobbies = person.hobbies){
     hobbies.push(hobby);
+    console.log(hobbies)
     return hobbies;
 }
 

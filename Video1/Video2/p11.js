@@ -11,13 +11,10 @@
     console.log(y)
 })()
 
-/* 
-Here it is an IFEE so the function is called immediately in try an error is thrown and catch block runs here 
-we calture the error in x and assign it to 1 so in catch block console.log(x) will give 1 
-then catch block is over and in next console.log(x) it will give undefined because the x will be 1 in catch block scope , 
-then the third console.log(y) will give 2 because in catch block y is assigned to 2 it doesn't find y in its scope so 
-it looks to lexical environment and found variable y and assign 2 to it 
-So the output will be
- 1 
-undefined
- 2 */
+/*
+The catch block receives the argument x. This is not the same x as the variable when we pass arguments. This variable x is block-scoped.
+
+Later, we set this block-scoped variable equal to 1, and set the value of the variable y. Now, we log the block-scoped variable x, which is equal to 1.
+
+Outside of the catch block, x is still undefined, and y is 2. When we want to console.log(x) outside of the catch block, it returns undefined, and y returns 2.
+*/
