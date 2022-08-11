@@ -1,6 +1,7 @@
 console.log(false || {} || null)
 console.log(false || null || '');
 console.log([] || 0 || false)
+console.log("" && 0)
 
 /*
 
