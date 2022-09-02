@@ -11,3 +11,5 @@ const runPromises  = async () =>{
 
 
 runPromises().then(res=>console.log(res)).catch(err=>err);
+
+/* [[1,2][3,4]] */
