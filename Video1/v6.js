@@ -9,6 +9,6 @@ person.name = "HHHHHH"
 console.log(person)
 
 /*
-With Object.seal we can prevent new properties from being added, or existing properties to be removed.
-
+With Object.seal we can prevent new properties from being added, or existing properties to be removed.but modify exixting property
+{ name: 'HHHHHH' }
 */
