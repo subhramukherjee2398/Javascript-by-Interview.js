@@ -4,7 +4,7 @@ random = 23;
 if(!typeof random === 'string'){
     console.log('Its a string...')
 }else{
-    console.log('its String...')
+    console.log('itsnot String...')
 }
 
 /*
