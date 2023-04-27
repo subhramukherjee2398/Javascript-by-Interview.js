@@ -18,3 +18,4 @@ Later, we set this block-scoped variable equal to 1, and set the value of the va
 
 Outside of the catch block, x is still undefined, and y is 2. When we want to console.log(x) outside of the catch block, it returns undefined, and y returns 2.
 */
+
