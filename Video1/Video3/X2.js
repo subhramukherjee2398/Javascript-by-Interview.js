@@ -11,7 +11,8 @@ console.log(helloBudyy.bind(person,'engineer'))
 Call method immediatley excuted the function
 so output will :
 
-kiran is ....
+Kiran is working as engineer
+[Function: bound helloBudyy]
 
 But Bind Method does'nt exected immediatley; it takes the reference
 of that function, so we have to run it explicitly
