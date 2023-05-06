@@ -5,7 +5,7 @@ function firstFunc(){
  myPromise().then((res)=>{
      console.log(res);
  })
- console.log('second');
+ console.log('first');
 }
 
 async function secondFunc(){
